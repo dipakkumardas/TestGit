@@ -23,13 +23,10 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/dasdi/.m2/repository/net/jodah/failsafe/2.4.4/failsafe-2.4.4.jar" sourcepath="C:/Users/dasdi/.m2/repository/net/jodah/failsafe/2.4.4/failsafe-2.4.4-sources.jar">
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="net.jodah"/>
-			<attribute name="maven.artifactId" value="failsafe"/>
-			<attribute name="maven.version" value="2.4.4"/>
-			<attribute name="maven.scope" value="compile"/>
+			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
